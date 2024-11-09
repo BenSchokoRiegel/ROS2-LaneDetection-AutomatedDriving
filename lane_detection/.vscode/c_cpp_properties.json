@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/mamut/ros2_humble/install/v4l2_camera/include/**",
+        "/home/mamut/ros2_humble/install/r2r_minimal_node_msgs/include/**",
+        "/home/mamut/ros2_humble/install/lanelet_msgs/include/**",
+        "/home/mamut/ros2_humble/install/gst_bridge/include/**",
+        "/home/mamut/ros2_humble/install/audio_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/mamut/ros2_humble/src/lanelet_msgs/lane_msgs/include/**",
+        "/home/mamut/ros2_humble/src/ros-gst-bridge/gst_bridge/include/**",
+        "/home/mamut/ros2_humble/src/v4l2_camera/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

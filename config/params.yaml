@@ -1,0 +1,72 @@
+image_lanelet:
+  x_off_set_pixel: {
+    type: int,
+    default_value: 0,
+    description: "X offset value in pixels",
+  }
+  y_off_set_pixel: {
+    type: int,
+    default_value: 0,
+    description: "Y offset value in pixels",
+  }
+  pixel_to_meter_x: {
+    type: double,
+    default_value: 2240.741,
+    description: "Conversion factor from pixels to meters for X-axis",
+  }
+  points_per_lane: {
+    type: int,
+    default_value: 10,
+    description: "The number of points published by the lanelet message."
+  }
+  pixel_to_meter_y: {
+    type: double,
+    default_value: 2078.74,
+    description: "Conversion factor from pixels to meters for Y-axis"
+  }
+  topic_publish: {
+    type: string,
+    default_value: 'target_pose',
+    description: "Topic to publish to"
+  }
+  topic_subscribe: {
+    type: string,
+    default_value: '/citicar/camera/image_color',
+    description: "Topic to subscribe to"
+  }
+  queue_size_publish: {
+    type: int,
+    default_value: 10,
+    description: "Size of the publisher message queue"
+  }
+  queue_size_subscribe: {
+    type: int,
+    default_value: 10,
+    description: "Size of the subscription message queue"
+  }
+  frame_id: {
+    type: string,
+    default_value: 'camera',
+    description: "Frame ID"
+  }
+  show: {
+    type: string,
+    default_value: 'normal',
+    description: 'Show option'
+  }
+  kernel: {
+    type: int,
+    default_value: 5,
+    description: 'Show option'
+  }
+  logger_show: {
+    type: bool,
+    default_value: true,
+    description: "Decides whether the logging print stream is shown or not."
+  }
+
+  image_show: {
+    type: bool,
+    default_value: true,
+    description: "Decides whether the image stream is shown or not."
+  }
